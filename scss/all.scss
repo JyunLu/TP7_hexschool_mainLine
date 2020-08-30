@@ -1,0 +1,8 @@
+@import "bootstrap/bootstrap.scss";
+@import "layout"; // 共同框架,第一層 *header、footer、logo記得回首頁
+
+@import "page/index"; //首頁
+@import "page/login"; //登入頁
+@import "page/member"; //會員管理
+@import "page/productList"; //產品列表頁
+@import "page/products"; //產品內頁

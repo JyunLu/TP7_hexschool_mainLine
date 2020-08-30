@@ -1,0 +1,59 @@
+.banner{
+    background-image: url(../../images/photo-1588159343745-445ae0b16383@2x.png);
+    background-size: cover;
+    padding:295px 0px;
+    
+    &-subscribe{
+        background: no-repeat center url(../../images/photo-1532413992378-f169ac26fff0-1@2x.png);
+        background-size: cover;
+        height: 600px;
+        padding-top: 312px;
+    }
+    .btn-shop:hover{
+        color: $white;
+        background: rgba($white,0.2) ;
+    }
+}
+.product {
+    .btn-goTravel{
+        @include pad {
+            padding: 18px 0px;
+            font-size: 1.25rem;
+        }
+        &:hover{
+            color:$secondary;
+            background: rgba($secondary,0.125) ;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .banner{
+        p{
+            font-size: 20px;
+        }
+        .btn-shop {
+            font-size: 28px;
+        }
+    }
+}
+
+// content-三欄card
+.mask{
+    font-size: 24px;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.25)
+}
+
+.subscribe-btn{
+  .form-control{
+      padding:20px 0px 20px 16px;
+  }  
+  .btn{
+      padding:0px 26px;
+  }
+}
